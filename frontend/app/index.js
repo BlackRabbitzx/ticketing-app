@@ -1,4 +1,3 @@
-// frontend/pages/index.js
 import React, { useEffect, useState } from 'react';
 
 const Home = () => {
