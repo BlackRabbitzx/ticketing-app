@@ -23,16 +23,6 @@ function Header() {
           <li id="registerBtn">
             <a href="register.html">Register</a>
           </li>
-          {/* <li id="dropdown" style={{ display: 'none' }}>
-            <a href="#" id="userName">
-              UserName
-            </a>
-            <div className="dropdown-content">
-              <a href="#" id="logoutBtn">
-                Log Out
-              </a>
-            </div>
-          </li> */}
         </ul>
       </nav>
     </header>

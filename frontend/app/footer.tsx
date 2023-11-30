@@ -9,11 +9,10 @@ function Footer() {
           <a href="">TrickTix</a>
           <h4>Contact Us</h4>
           <p>
-            <strong>Address: </strong>Jalan Pemuda No. 123, Kota Jakarta Selatan,
-            <br /> DKI Jakarta 12345, Indonesia.
+            <strong>Address: </strong>Jalan Pemuda No. 123, Kota Jakarta Selatan,DKI Jakarta 12345, Indonesia.
           </p>
           <p>
-            <strong>E-mail: </strong>GuarJian@gmail.com
+            <strong>E-mail: </strong>TrickTix@gmail.com
           </p>
           <p>
             <strong>Phone: </strong>+62 836 2334 1491
@@ -36,7 +35,6 @@ function Footer() {
         <div className="col">
           <h4>About</h4>
           <a href="AboutUs.html">About us</a>
-          <a href="">Delivery Information</a>
           <a href="">Privacy Policy</a>
           <a href="">Terms and Conditions</a>
           <a href="ContactUs.html">Contact Us</a>
@@ -44,9 +42,8 @@ function Footer() {
         <div className="col">
           <h4>My account</h4>
           <a href="#">Sign In</a>
-          <a href="Cart.html">View Cart</a>
+          <a href="Cart.html">View Tickets</a>
           <a href="#">My Wishlist</a>
-          <a href="#">Track My Order</a>
           <a href="#">Help</a>
         </div>
         <div className="col install">
