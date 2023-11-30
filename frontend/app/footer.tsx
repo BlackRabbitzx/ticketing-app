@@ -1,12 +1,13 @@
 import React from 'react';
 import './headerfooter.css';
+import appstore from './assets/app-store.png';
+import playstore from './assets/play-store.png';
 
 function Footer() {
   return (
     <footer>
       <div className="row">
         <div className="col">
-          <a href="">TrickTix</a>
           <h4>Contact Us</h4>
           <p>
             <strong>Address: </strong>Jalan Pemuda No. 123, Kota Jakarta Selatan,DKI Jakarta 12345, Indonesia.
@@ -50,8 +51,8 @@ function Footer() {
           <h4>Install app</h4>
           <p>From Play Store or app Store</p>
           <div className="row">
-            <img src="assets/play-store.png" alt="" />
-            <img src="assets/app-store.png" alt="" />
+            <img className='playstore' />
+            <img src='{appstore}' alt="app store" />
           </div>
         </div>
       </div>

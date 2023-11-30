@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-    color: white;
 }
 header {
     display: flex;
@@ -25,7 +23,8 @@ header {
     font-weight: 30px;
     text-decoration: none;
     color: black;
-    padding: 15px;
+    padding: 17px;
+    font-family: sans-serif;
 }
 .log{
     color: red;
@@ -33,7 +32,6 @@ header {
 .ogo{
     color: blue;
 }
-
 .navb1,.navb2{
     padding: 10px;
     padding-left: 0;
@@ -70,6 +68,8 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: left;
+    width: 25%;
+    padding: 10px;
 }
 .row{
     display: flex;
@@ -106,5 +106,9 @@ footer .Copyright{
     text-align: center;
 }
 footer .follow i:hover, footer a:hover{
-    color: #62ad8d;
+    color: red;
+}
+
+.playstore{
+    background-image: url(./assets/play-store.png);
 }
