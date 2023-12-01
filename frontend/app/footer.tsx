@@ -1,9 +1,8 @@
 import React from 'react';
 import './headerfooter.css';
-import appstore from './assets/app-store.png';
-import playstore from './assets/play-store.png';
+import Playstore from './assets/play-store.png';
 
-function Footer() {
+const Footer: React.FC = () => {
   return (
     <footer>
       <div className="row">
@@ -51,8 +50,8 @@ function Footer() {
           <h4>Install app</h4>
           <p>From Play Store or app Store</p>
           <div className="row">
-            <img className='playstore' />
-            <img src='{appstore}' alt="app store" />
+            <img src='play-store.png' alt='play store' />
+            <img src='app-store.png' alt="app store" />
           </div>
         </div>
       </div>

@@ -108,7 +108,3 @@ footer .Copyright{
 footer .follow i:hover, footer a:hover{
     color: red;
 }
-
-.playstore{
-    background-image: url(./assets/play-store.png);
-}
