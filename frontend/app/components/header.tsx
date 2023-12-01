@@ -1,19 +1,23 @@
 import React from 'react';
 import './headerfooter.css';
+import { Link } from 'react-router-dom';
 
-function Header() {
+const Header: React.FC = () => {
   return (
     <header>
       <nav className="navbar">
         <div className="brand">
-          <a href="home.html"><strong className='log'>Trick</strong><strong className='ogo'>Tix</strong></a>
+        <Link to="/"><strong className='log'>Trick</strong><strong className='ogo'>Tix</strong></Link>
         </div>
         <ul className="navb1">
           <li>
-            <a href="movies.html">Movies</a>
+            <Link to="/movies">Movies</Link>
           </li>
           <li>
-            <a href="theaters.html">Theaters</a>
+            <Link to="/theaters">Theaters</Link>
+          </li>
+          <li>
+            <Link to="/aboutUs">About Us</Link>
           </li>
         </ul>
         <ul className="navb2">
