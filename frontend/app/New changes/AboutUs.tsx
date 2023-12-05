@@ -1,6 +1,9 @@
-import React from 'react';
+// AboutUs.js
 
-function AboutUs() {
+import React from 'react';
+import './AboutUs.css'; // Import your CSS file
+
+const AboutUs = () => {
   return (
     <div className="about-us">
       <section className="about-us-header">
@@ -12,18 +15,14 @@ function AboutUs() {
         <div>
           <h2>Our Mission</h2>
           <p>
-            At TicketMaster, our mission is to connect people with the events they love. We strive to provide a seamless and
-            enjoyable ticket ordering experience, making it easy for you to create lasting memories at concerts, sports
-            events, and more.
+            At TrickTix, our mission is to connect people with the events they love. We strive to provide a seamless and enjoyable ticket ordering experience, making it easy for you to create lasting memories at concerts, sports events, and more.
           </p>
         </div>
 
         <div>
           <h2>Our Vision</h2>
           <p>
-            We envision a world where everyone has access to the events that bring joy and excitement. Through innovation
-            and a passion for live experiences, we aim to be the go-to platform for discovering and securing tickets to
-            the hottest events worldwide.
+            We envision a world where everyone has access to the events that bring joy and excitement. Through innovation and a passion for live experiences, we aim to be the go-to platform for discovering and securing tickets to the hottest events worldwide.
           </p>
         </div>
       </section>
@@ -31,9 +30,7 @@ function AboutUs() {
       <section className="our-team">
         <h2>Meet Our Team</h2>
         <p>
-          Behind every successful event is a dedicated team, and TrickTix is no exception. Our diverse team of
-          professionals is committed to delivering excellence and ensuring that your event journey is exceptional from
-          start to finish.
+          Behind every successful event is a dedicated team, and TrickTix is no exception. Our diverse team of professionals is committed to delivering excellence and ensuring that your event journey is exceptional from start to finish.
         </p>
 
         <div className="team-members">
@@ -48,15 +45,13 @@ function AboutUs() {
             <h3>Jane Smith</h3>
             <p>Head of Customer Experience</p>
           </div>
-
         </div>
       </section>
 
       <section className="contact-us">
         <h2>Contact Us</h2>
         <p>
-          We love hearing from our users! If you have any questions, feedback, or just want to say hello, feel free to
-          reach out to our friendly support team.
+          We love hearing from our users! If you have any questions, feedback, or just want to say hello, feel free to reach out to our friendly support team.
         </p>
 
         <div className="contact-info">
