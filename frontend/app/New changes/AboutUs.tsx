@@ -8,21 +8,23 @@ const AboutUs = () => {
     <div className="about-us">
       <section className="about-us-header">
         <h1>About Us</h1>
-        <p>Welcome to TrickTix, where the magic of live events comes to life! At TrickTix, we believe in creating unforgettable experiences that last a lifetime. Whether you're a music enthusiast, a sports fanatic, or a theater buff, TrickTix is your go-to destination for securing tickets to the hottest events around. Our mission is to connect passionate fans with their favorite artists, teams, and performers, ensuring that every moment is a celebration. With a user-friendly platform, seamless booking process, and a commitment to customer satisfaction, TrickTix is your trusted companion on the journey to exceptional live entertainment. Join us on this adventure, and let the magic of TrickTix turn your moments into memories!</p>
+        <p>
+        Selamat datang di TrickTix, tempat di mana kami berkomitmen untuk meredefinisi pengalaman menonton film dengan cara yang revolusioner dan memikat. Sebagai pionir dalam industri pemesanan tiket film online, kami, di TrickTix, memahami bahwa hiburan adalah bagian tak terpisahkan dari kehidupan modern. Oleh karena itu, kami berusaha menciptakan lingkungan di mana setiap langkah dalam perjalanan menikmati film dapat dijalani dengan kemudahan dan kecerdasan teknologi.
+        </p>
       </section>
 
       <section className="mission-vision">
         <div>
           <h2>Our Mission</h2>
           <p>
-            At TrickTix, our mission is to connect people with the events they love. We strive to provide a seamless and enjoyable ticket ordering experience, making it easy for you to create lasting memories at concerts, sports events, and more.
+            Misi kami di TrickTix adalah memberikan layanan yang unggul, memberikan akses yang mudah, dan menawarkan pengalaman yang tak terlupakan kepada setiap pengguna. Kami merancang platform kami dengan fokus pada kemudahan penggunaan, kecepatan transaksi, dan keamanan data. Kami berusaha menciptakan lingkungan di mana setiap orang dapat dengan mudah merencanakan kunjungan ke bioskop, menjadikan TrickTix sebagai teman setia dalam setiap momen hiburan.
           </p>
         </div>
 
         <div>
           <h2>Our Vision</h2>
           <p>
-            We envision a world where everyone has access to the events that bring joy and excitement. Through innovation and a passion for live experiences, we aim to be the go-to platform for discovering and securing tickets to the hottest events worldwide.
+            Di TrickTix, visi kami adalah menjadi pionir dalam perubahan cara masyarakat menikmati hiburan. Kami bermimpi tentang menciptakan transformasi positif dalam industri pemesanan tiket film online, menghadirkan kemudahan, kecepatan, dan keamanan dalam setiap langkah perjalanan menonton film. Kami berkomitmen untuk menjadi perusahaan yang memberikan inovasi terdepan dalam memberikan pengalaman menonton film yang revolusioner.
           </p>
         </div>
       </section>
@@ -30,20 +32,38 @@ const AboutUs = () => {
       <section className="our-team">
         <h2>Meet Our Team</h2>
         <p>
-          Behind every successful event is a dedicated team, and TrickTix is no exception. Our diverse team of professionals is committed to delivering excellence and ensuring that your event journey is exceptional from start to finish.
+          Di balik projek yang sukses ada tim yang berdedikasi, dan TrickTix tidak terkecuali. Tim profesional kami yang beragam berkomitmen untuk memberikan keunggulan dan memastikan pengalaman pesan tiket bioskop Anda mudah dari awal hingga akhir.
         </p>
 
         <div className="team-members">
           <div className="team-member">
-            <img src="team-member-1.jpg" alt="Team Member 1" />
+            <img src="pic.jpg" alt="Anggota Tim 1" />
             <h3>John Doe</h3>
-            <p>Founder & CEO</p>
+            <p>Pendiri & CEO</p>
           </div>
 
           <div className="team-member">
-            <img src="team-member-2.jpg" alt="Team Member 2" />
+            <img src="pic.jpg" alt="Anggota Tim 2" />
             <h3>Jane Smith</h3>
-            <p>Head of Customer Experience</p>
+            <p>Kepala Pengalaman Pelanggan</p>
+          </div>
+          
+          <div className="team-member">
+            <img src="pic.jpg" alt="Anggota Tim 3" />
+            <h3>Jane Smith</h3>
+            <p>Kepala Pengalaman Pelanggan</p>
+          </div>
+
+          <div className="team-member">
+            <img src="pic.jpg" alt="Anggota Tim 4" />
+            <h3>Jane Smith</h3>
+            <p>Kepala Pengalaman Pelanggan</p>
+          </div>
+
+          <div className="team-member">
+            <img src="pic.jpg" alt="Anggota Tim 5" />
+            <h3>Jane Smith</h3>
+            <p>Kepala Pengalaman Pelanggan</p>
           </div>
         </div>
       </section>
@@ -51,7 +71,7 @@ const AboutUs = () => {
       <section className="contact-us">
         <h2>Contact Us</h2>
         <p>
-          We love hearing from our users! If you have any questions, feedback, or just want to say hello, feel free to reach out to our friendly support team.
+          Kami senang mendengar dari pengguna kami! Jika Anda memiliki pertanyaan, feedback, atau hanya ingin mengucapkan halo, jangan ragu untuk menghubungi tim dukungan kami yang ramah.
         </p>
 
         <div className="contact-info">
