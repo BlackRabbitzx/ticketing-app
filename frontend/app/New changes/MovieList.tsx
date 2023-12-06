@@ -12,15 +12,19 @@ const MovieList = () => {
     { id: 5, title: 'Forrest Gump', imageUrl: cover, description: 'A heartwarming tale of an extraordinary life.' },
   ]);
 
+  const handleItemClick = (movieId: number) => {
+    console.log(`Clicked on movie with ID: ${movieId}`);
+  };
+
   return (
     <div className='movie-list-container'>
       <h1>Movie List</h1>
       <div className="movie-list">
         {movies.map(movie => (
-          <div key={movie.id} className="movie-item">
+          <a key={movie.id} className="movie-item" onClick={() => handleItemClick(movie.id)}>
             <img src={movie.imageUrl} alt={movie.title} />
             <h3>{movie.title}</h3>
-          </div>
+          </a>
         ))}
       </div>
     </div>
