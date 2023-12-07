@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .bigcont {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bigcont .detail {
+    display: flex;
+  }
+  
+  .bigcont h1.title {
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  
+  .bigcont .detail img {
+    width: 20%;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 3px blue solid;
+  }
+  
+  .bigcont .detail .detailinfo {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 150px;
+    text-align: justify;
+    border: 1.5px lightgray solid;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .bigcont .detail .detailinfo h4 {
+    margin-top: 10px;
+  }
+  
+  .bigcont .jadwal {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bigcont .jadwal h2 {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  
+  .bigcont .jadwal .tanggal {
+    display: flex;
+    margin-left: 85px;
+    margin-top: 10px;
+  }
+  
+  .bigcont .jadwal .tanggal p {
+    margin-left: 15px;
+    border: 1.5px red solid;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-right: 150px;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday .jadwal1, .jadwal2, .jadwal3 {
+    margin-top: 15px;
+    border: 1.5px lightgray solid;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 25px;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday .jadwal1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday .jadwal1 .time {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday .jadwal1 .time span {
+    margin-right: 25px;
+    border: 1.5px lightgray solid;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday .jadwal2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday .jadwal2 .time {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday .jadwal2 .time span {
+    margin-right: 25px;
+    border: 1.5px lightgray solid;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday .jadwal3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday .jadwal3 .time {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bigcont .jadwal .listjadwaltoday .jadwal3 .time span {
+    margin-right: 25px;
+    border: 1.5px lightgray solid;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .bigcont .jadwal .listjadwaltomorrow {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+  }
+  
+  .bigcont .jadwal .listjadwaltomorrow .jadwal1 {
+    margin-top: 15px;
+    border: 1.5px lightgray solid;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 25px;
+  }
+  
+  .bigcont .jadwal .listjadwaltomorrow .jadwal1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bigcont .jadwal .listjadwaltomorrow .jadwal1 .time {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bigcont .jadwal .listjadwaltomorrow .jadwal1 .time span {
+    margin-right: 25px;
+    border: 1.5px lightgray solid;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .bigcont .jadwal .listjadwallast {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+  }
+  
+  .bigcont .jadwal .listjadwallast .jadwal1 {
+    margin-top: 15px;
+    border: 1.5px lightgray solid;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 25px;
+  }
+  
+  .bigcont .jadwal .listjadwallast .jadwal1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bigcont .jadwal .listjadwallast .jadwal1 .time {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bigcont .jadwal .listjadwallast .jadwal1 .time span {
+    margin-right: 25px;
+    border: 1.5px lightgray solid;
+    padding: 5px;
+    border-radius: 5px;
+  }
