@@ -1,0 +1,49 @@
+.about-us {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-us-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.mission-vision div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.our-team {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.contact-us {
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 20px;
+}

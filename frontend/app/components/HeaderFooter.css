@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+.brand {
+    font-size: 32px;
+    font-weight: 30px;
+    text-decoration: none;
+    color: black;
+    padding: 17px;
+    font-family: sans-serif;
+}
+.log{
+    color: red;
+}
+.ogo{
+    color: blue;
+}
+.navb1,.navb2{
+    padding: 10px;
+    padding-left: 0;
+}
+.navb2 {
+    position: absolute;
+    right: 0;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 20px;
+    align-items: center;
+}
+header li{
+    padding: 15px;
+}
+header ul li a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.loginBtn {
+    margin-top: 16px;
+    padding: 8px;
+    border: 3px solid blue;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.loginBtn:hover {
+    color: white;
+    border: 3px solid blue;
+    background-color: blue;
+}
+
+.regisBtn {
+    margin-top: 16px;
+    padding: 8px;
+    border: 3px solid red;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.regisBtn:hover {
+    color: white;
+    border: 3px solid red;
+    background-color: red;
+}
+
+/* border */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #283D59;
+    padding: 40px 80px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 25%;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: white;
+}
+footer p, footer a{
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0 0 8px 0; 
+    color: #9d9d9d;
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: white;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+    width: 120px;
+}
+footer .Copyright{
+    width: 100%;
+    text-align: center;
+}
+footer .follow i:hover, footer a:hover{
+    color: red;
+}
