@@ -1,0 +1,59 @@
+/* PayComplete.css */
+
+.pay-complete-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .pay-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .movie-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .movie-cover {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .movie-text {
+    flex-grow: 1;
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  .pay-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .checklist {
+    color: #4caf50;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

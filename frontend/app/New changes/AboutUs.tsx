@@ -1,5 +1,3 @@
-// AboutUs.js
-
 import React from 'react';
 import './AboutUs.css'; // Import your CSS file
 
