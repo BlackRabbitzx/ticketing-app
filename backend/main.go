@@ -24,6 +24,7 @@ func main() {
 
 	config.Connect()
 	route.UserRoute(router)
+	route.SetupMovieRoutes(router)
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "Hello from Golang Backend!")

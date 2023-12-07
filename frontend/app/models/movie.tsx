@@ -1,5 +1,6 @@
 type Movie = {
-    movie_id?: string;
+    cinema_id: number;
+    movie_id?: number;
     title: string;
     genre: string;
     release_date: string;

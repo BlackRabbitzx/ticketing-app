@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Register.css';
 import Link from 'next/link';
-import User from '../models/user';
+import User from '../../models/user';
 import { useRouter } from 'next/router';
-import signup from '../api/signup';
+import signup from '../../api/signup';
 import { v4 } from 'uuid';
 import { useNavigate } from 'react-router-dom';
 

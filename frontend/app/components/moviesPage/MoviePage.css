@@ -1,0 +1,7 @@
+.product_categories_slider{
+
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+
+  }

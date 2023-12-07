@@ -7,9 +7,11 @@ import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import Movies from './components/Movies';
 import Theaters from './components/Theaters';
-import SignIn from './components/SignIn';
-import Register from './components/Register';
+import SignIn from './components/Usersignin-signup/SignIn';
+import Register from './components/Usersignin-signup/Register';
 import Profile from './components/Profile';
+import MoviePage from './components/moviesPage/MoviePage';
+import MovieDetails from './components/moviesPage/MovieDetails';
 
 export default function Page(){
   return (
@@ -19,11 +21,12 @@ export default function Page(){
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Movies" element={<Movies />} />
+          <Route path="/Movies" element={<MoviePage />} />
           <Route path="/Theaters" element={<Theaters />} />
           <Route path="/SignIn" element={<SignIn />}></Route>
           <Route path="/Register" element={<Register />}></Route>
           <Route path="/Profile" element={<Profile />}></Route>
+          <Route path='/movieDetail/:id' element={<MovieDetails/>}></Route>
         </Routes>
         <Footer />  
       </Router>

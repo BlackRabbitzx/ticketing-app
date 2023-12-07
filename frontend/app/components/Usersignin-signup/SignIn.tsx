@@ -1,9 +1,9 @@
 // src/components/SignIn.tsx
 import React, { useEffect, useState } from "react";
 import "./SignIn.css";
-import User from "../models/user";
-import setCookie from "../util/setCookie";
-import signin from "../api/signin";
+import User from "../../models/user";
+import setCookie from "../../util/setCookie";
+import signin from "../../api/signin";
 import { useNavigate } from "react-router-dom";
 import Link from "next/link";
 

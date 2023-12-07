@@ -5,10 +5,9 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func SetupMovieRoutes(router *gin.RouterGroup) {
-	movieGroup := router.Group("/movies")
-	{
-		movieGroup.GET("/Movie", controller.GetMovies)
-		movieGroup.POST("/Movie", controller.CreateMovie)
-	}
+func SetupMovieRoutes(router *gin.Engine) {
+	router.POST("/get-movie", controller.GetMovies)
+	router.POST("/get-movie-by-id", controller.GetMovieByID)
+	router.POST("/create-movie", controller.CreateMovie)
+	
 }
